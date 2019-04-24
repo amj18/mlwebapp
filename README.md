@@ -6,7 +6,7 @@ Model accuracy: 91.95%
 
 ## Screenshot of GUI:
 
-![ML web app GUI](screenshots/mlwebapp_1)
+![ML web app GUI](screenshots/mlwebapp_1.png)
 
 **Requirements:**
 Python 3.7
