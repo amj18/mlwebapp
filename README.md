@@ -23,8 +23,11 @@ https://docs.python.org/3/tutorial/venv.html
 Install all relevant packages:
 
 pip install flask
+
 pip install pandas
+
 pip install numpy
+
 pip install scikit-learn
 
 **Step 3:**
