@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+	<div class="container">
+	<h1>Naive bayes classifier for Youtube comments</h1>
+	<p><strong>Your comment is</strong></p>
+	<div class="results">		
+	{% if prediction == 1 %}
+	<h2 style="color:red;">Spam</h2>
+	{% elif prediction == 0 %}
+	<h2 style="color:blue;">Not Spam</h2>
+	{% endif %}
+    <form action="{{ url_for('home')}}" method="GET">
+    <input type="submit" class="btn-info" value="Predict again?" />
+    </form>
+	</div>        
+</body>
+</html>
