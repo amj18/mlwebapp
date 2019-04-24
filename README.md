@@ -6,7 +6,7 @@ Model accuracy: 91.95%
 
 ## Screenshot of GUI:
 
-![ML web app GUI](screenshots/mlwebapp_1.png)
+![ML web app GUI](https://raw.githubusercontent.com/amj18/mlwebapp/master/screenshots/mlwebapp_1.PNG)
 
 **Requirements:**
 Python 3.7
@@ -30,6 +30,7 @@ pip install scikit-learn
 **Step 3:**
 
 To run, open command line in folder and type:
+
 python webapp.py
 
 Go to localhost:5000 on your web browser to view and interact with app.
