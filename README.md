@@ -37,3 +37,7 @@ To run, open command line in folder and type:
 python webapp.py
 
 Go to localhost:5000 on your web browser to view and interact with app.
+
+## Things to do
+* Deploy flask app to cloud server
+* Add database functionality to store user input and retrain model
