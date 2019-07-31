@@ -1,8 +1,10 @@
 # Naive bayes classifier for Youtube comments
 
-**Link to live web app on AWS Elastic beanstalk server:**
+Update July 2019: New link to app: https://am189.pythonanywhere.com/
 
-http://mlspamapp.eu-west-2.elasticbeanstalk.com
+~~**Link to live web app on AWS Elastic beanstalk server:**~~
+
+~~http://mlspamapp.eu-west-2.elasticbeanstalk.com~~
 
 This is a simple naive bayes classifier trained on structured data to detect spam in YouTube comments. The front-end is designed in HTML and CSS, while the back-end is written in the Python Flask web framework with Jinja2 templating.
 
